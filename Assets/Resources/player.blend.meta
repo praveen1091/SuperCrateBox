@@ -1,0 +1,667 @@
+fileFormatVersion: 2
+guid: c6038244f3b95a0428f3cebb56072abb
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Arm-Connector_L
+    100002: Arm-Connector_R
+    100004: Arm-R
+    100006: ArmL
+    100008: Central
+    100010: DoubleSlot
+    100012: DoubleSlot_R
+    100014: DoublSlot_L
+    100016: Foot_L
+    100018: Foot_R
+    100020: Hand-R
+    100022: HandL
+    100024: Hip_L
+    100026: Hip_R
+    100028: LowerLeg_L
+    100030: LowerLeg_R
+    100032: Player
+    100034: //RootNode
+    100036: PlayerBones
+    100038: Shoulder-R
+    100040: ShoulderL
+    100042: SingleSlot
+    100044: Thumb-R
+    100046: ThumbL
+    100048: UpperLeg_L
+    100050: UpperLeg_R
+    400000: Arm-Connector_L
+    400002: Arm-Connector_R
+    400004: Arm-R
+    400006: ArmL
+    400008: Central
+    400010: DoubleSlot
+    400012: DoubleSlot_R
+    400014: DoublSlot_L
+    400016: Foot_L
+    400018: Foot_R
+    400020: Hand-R
+    400022: HandL
+    400024: Hip_L
+    400026: Hip_R
+    400028: LowerLeg_L
+    400030: LowerLeg_R
+    400032: Player
+    400034: //RootNode
+    400036: PlayerBones
+    400038: Shoulder-R
+    400040: ShoulderL
+    400042: SingleSlot
+    400044: Thumb-R
+    400046: ThumbL
+    400048: UpperLeg_L
+    400050: UpperLeg_R
+    4300000: Player
+    7400000: Default Take
+    7400002: OneHanded
+    7400004: Standing
+    7400006: OneHandedMovement
+    7400008: TwoHanded
+    7400010: TwoHandedMovement
+    7400012: DualHanded
+    7400014: DualHandedMovement
+    9500000: //RootNode
+    13700000: Player
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Standing
+      takeName: OneHanded
+      firstFrame: -1
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Player/DoubleSlot
+        weight: 1
+      - path: Player/DoubleSlot_R
+        weight: 1
+      - path: Player/DoublSlot_L
+        weight: 1
+      - path: Player/SingleSlot
+        weight: 1
+      - path: PlayerBones
+        weight: 1
+      - path: PlayerBones/Central
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL/HandL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL/ThumbL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R/Hand-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R/Thumb-R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: OneHanded
+      takeName: OneHanded
+      firstFrame: 49
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Player/DoubleSlot
+        weight: 1
+      - path: Player/DoubleSlot_R
+        weight: 1
+      - path: Player/DoublSlot_L
+        weight: 1
+      - path: Player/SingleSlot
+        weight: 1
+      - path: PlayerBones
+        weight: 1
+      - path: PlayerBones/Central
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL/HandL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL/ThumbL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R/Hand-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R/Thumb-R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: OneHandedMovement
+      takeName: OneHanded
+      firstFrame: 55
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Player/DoubleSlot
+        weight: 1
+      - path: Player/DoubleSlot_R
+        weight: 1
+      - path: Player/DoublSlot_L
+        weight: 1
+      - path: Player/SingleSlot
+        weight: 1
+      - path: PlayerBones
+        weight: 1
+      - path: PlayerBones/Central
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL/HandL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL/ThumbL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R/Hand-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R/Thumb-R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: TwoHanded
+      takeName: OneHanded
+      firstFrame: 99
+      lastFrame: 104
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Player/DoubleSlot
+        weight: 1
+      - path: Player/DoubleSlot_R
+        weight: 1
+      - path: Player/DoublSlot_L
+        weight: 1
+      - path: Player/SingleSlot
+        weight: 1
+      - path: PlayerBones
+        weight: 1
+      - path: PlayerBones/Central
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL/HandL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL/ThumbL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R/Hand-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R/Thumb-R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: TwoHandedMovement
+      takeName: OneHanded
+      firstFrame: 105
+      lastFrame: 129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Player/DoubleSlot
+        weight: 1
+      - path: Player/DoubleSlot_R
+        weight: 1
+      - path: Player/DoublSlot_L
+        weight: 1
+      - path: Player/SingleSlot
+        weight: 1
+      - path: PlayerBones
+        weight: 1
+      - path: PlayerBones/Central
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL/HandL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL/ThumbL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R/Hand-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R/Thumb-R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DualHanded
+      takeName: OneHanded
+      firstFrame: 149
+      lastFrame: 154
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Player/DoubleSlot
+        weight: 1
+      - path: Player/DoubleSlot_R
+        weight: 1
+      - path: Player/DoublSlot_L
+        weight: 1
+      - path: Player/SingleSlot
+        weight: 1
+      - path: PlayerBones
+        weight: 1
+      - path: PlayerBones/Central
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL/HandL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL/ThumbL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R/Hand-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R/Thumb-R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DualHandedMovement
+      takeName: OneHanded
+      firstFrame: 155
+      lastFrame: 179
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Player/DoubleSlot
+        weight: 1
+      - path: Player/DoubleSlot_R
+        weight: 1
+      - path: Player/DoublSlot_L
+        weight: 1
+      - path: Player/SingleSlot
+        weight: 1
+      - path: PlayerBones
+        weight: 1
+      - path: PlayerBones/Central
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL/HandL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_L/ShoulderL/ArmL/ThumbL
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R/Hand-R
+        weight: 1
+      - path: PlayerBones/Central/Arm-Connector_R/Shoulder-R/Arm-R/Thumb-R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_L/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_R
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: PlayerBones/Central/Hip_R/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Behavior\WeaponShoot.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Behavior\WeaponShoot.cs" Line="8" Column="84" />
+      <File FileName="Assets\Scripts\Behavior\BulletBehaviour.cs" Line="19" Column="1" />
+      <File FileName="Assets\Scripts\Behavior\EnemyMovement.cs" Line="41" Column="10" />
+      <File FileName="Assets\Scripts\Behavior\WeaponShoot.cs" Line="91" Column="1" />
+      <File FileName="a:\Vali\Documents\SuperCrateBox\Assets\Scripts\Behavior\PlayerMovement.cs" Line="84" Column="16" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="A:\Vali\Documents\SuperCrateBox\Assets\Scripts\Behavior\WeaponShoot.cs" line="60" />
+      <Breakpoint file="A:\Vali\Documents\SuperCrateBox\Assets\Scripts\Behavior\EnemyMovement.cs" line="40" />
+      <Breakpoint file="a:\Vali\Documents\SuperCrateBox\Assets\Scripts\Behavior\PlayerMovement.cs" line="83" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
